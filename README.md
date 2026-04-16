@@ -37,7 +37,7 @@
 
 ## 🔧 技术工具链
 
-**标注平台**：3D Slicer 5.6 | ITK-SNAP | TotalSegmentator  
+**标注平台**：3D Slicer 5.10.0 | ITK-SNAP | TotalSegmentator  
 **数据处理**：Python | pydicom | SimpleITK  
 **格式标准**：DICOM | NIfTI | OBJ/STL  
 **临床背景**：7年CT/MRI独立操作经验 | 放射技师资格证 | 影像解剖学基础
