@@ -1,7 +1,12 @@
-# 👋 陆泆帆 | 医学影像数据工程师
+# 👋 陆泆帆 · 医学影像数据工程师
 
-&gt; 7年放射技师（持证） | 医疗AI数据标注 | 三维重建可视化  
-&gt; 坐标：成都 | 联系方式：13982264759
+> 7年放射技师（持证）｜ 医疗AI数据标注 ｜ 三维重建可视化  
+> 📍 成都
+
+## 联系
+
+- 💬 微信：-Pudgala
+- 📧 邮箱：284397146 [at] qq.com
 
 ---
 
@@ -17,54 +22,46 @@
 
 ## 📁 主要项目
 
-### 1. 肝脏血管与肺部支气管3D重建
+### 1. 肝脏血管与肺部多结构3D重建
 **仓库**：[liver-vessel-segmentation](https://github.com/qq284397146-cpu/liver-vessel-segmentation)  
-**内容**：手工标注肝脏血管系统（门静脉/肝静脉）+ 肺部支气管三维可视化 + 360°旋转演示视频  
-**技术栈**：3D Slicer 5.6 | ITK-SNAP | 纯手工精细标注  
-**效率**：40-60分钟完成完整血管树分割，可导出OBJ/STL用于3D打印或手术规划
+**内容**：手工标注肝脏血管系统（门静脉/肝静脉）+ 肺叶/支气管三维可视化 + 360°旋转演示  
+**技术栈**：3D Slicer | ITK-SNAP | TotalSegmentator CLI  
+**交付物**：MRB场景文件 + OBJ/STL导出，可用于教学演示或手术规划参考
 
-### 2. 医学影像数据处理工具集
+### 2. 批量DICOM数据处理工具集
 **仓库**：[Medical-Image-Data-Tools](https://github.com/qq284397146-cpu/Medical-Image-Data-Tools)  
-**内容**：DICOM元数据批量提取器（已验证107层CT序列处理）  
-**技术栈**：Python + pydicom + csv  
-**价值**：解决医院导出DICOM无扩展名、手工查看元数据效率低痛点，生成标准化CSV报表
+**内容**：DICOM元数据批量提取 + 230例CT序列批量转NIfTI（0失败，5分02秒）  
+**技术栈**：Python | pydicom | dicom2nifti  
+**价值**：解决无扩展名DICOM识别、多层嵌套目录遍历、批量格式转换等数据工程痛点
 
-### 3. 影像标注作品集展示
+### 3. 影像标注作品集
 **仓库**：[Medical-Image-Annotation-Portfolio](https://github.com/qq284397146-cpu/Medical-Image-Annotation-Portfolio)  
-**内容**：多模态影像标注案例集（CT/MRI）
+**内容**：多模态影像标注案例集（CT/MRI），持续更新中
 
 ---
 
 ## 🔧 技术工具链
 
-**标注平台**：3D Slicer 5.10.0 | ITK-SNAP | TotalSegmentator  
-**数据处理**：Python | pydicom | SimpleITK  
-**格式标准**：DICOM | NIfTI | OBJ/STL  
-**临床背景**：7年CT/MRI独立操作经验 | 放射技师资格证 | 影像解剖学基础
+| 类别 | 工具 |
+|------|------|
+| **标注平台** | 3D Slicer 5.10 · ITK-SNAP · TotalSegmentator |
+| **数据处理** | Python · pydicom · dicom2nifti · SimpleITK |
+| **格式标准** | DICOM · NIfTI · OBJ/STL |
+| **临床背景** | 7年CT/MRI独立操作 · 放射技师资格证 · 影像解剖学基础 |
 
 ---
 
 ## 💼 求职意向
 
-**目标岗位**：医学影像标注工程师 | 三维重建数据处理 | 医疗AI数据质控 | 影像组学数据专员  
-**硬性优势**：持证放射技师 + 手工标注实战经验 + 临床影像解剖基础 + Python数据处理能力  
-**工作模式**：技术驱动，追求可复用的标准化流程，拒绝纯重复性劳动
+**目标岗位**：医学影像标注工程师 · 三维重建数据处理 · 医疗AI数据质控 · 影像组学数据专员
+
+**核心优势**：
+- 持证放射技师，理解临床采图标准与解剖结构，标注质量有临床基础背书
+- 手工精细标注 + AI辅助分割双轨并行，能做也能改
+- Python数据处理能力，可独立完成从原始DICOM到训练集的全流程
+
+**工作偏好**：技术驱动，追求可复用的标准化流程
 
 ---
 
-&gt; ⚠️ **数据声明**：本页所有影像数据均已脱敏处理，符合医疗数据隐私规范。
-
-<!--
-**qq284397146-cpu/qq284397146-cpu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> ⚠️ **数据声明**：本页所有影像数据均已脱敏处理，符合医疗数据隐私规范。
